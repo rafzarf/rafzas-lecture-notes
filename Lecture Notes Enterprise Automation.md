@@ -1,0 +1,385 @@
+```
+=======================
+Nama: Rafza Ray Firdaus
+Kelas: 4AEB-2
+NIM: 220441043
+=======================
+Project Structure:
+- "Sumber": List of sources used to build this note.
+- TLDR Page: To understand key takeaways from each chapter and bit-sized insights.
+- Summary Material: Detailed summary from the course, with some additions from several sources.
+=======================
+```
+- You may want to check the `md` file via this link: https://github.com/rafzarf/rafzas-lecture-notes.git
+- ## Sumber
+	- [Enterprise Automation | Design your automation strategy! ](https://www.udemy.com/course/enterprise-automation/)
+	- [How to Manage Technical Debt 🦠 - by Luca Rossi (refactoring.fm)](https://refactoring.fm/p/technical-debt) 
+	- [What are microservices?](https://microservices.io/)
+
+- ## TL;DR 
+	- **Bag 1: Introduction to Enterprise Automation**
+		- Enterprise automation enhances performance by streamlining processes and supporting strategic business goals.
+		- It's about orchestrating connections between apps rather than adding more apps.
+	- **Bag 2: Automation and Integration**
+		- Automation relies on integration; both drive efficiency, innovation, and operational goals.
+		- Successful automation needs a holistic approach, not project-by-project.
+	- **Bag 3: The Three Approaches to Automation**
+		- Three integration pillars are crucial: experience, data, and process integration.
+		- Understanding and supporting these are essential for effective automation.
+	- **Bag 4: Automation and Integration as a Progressive Approach**
+		- Combining automation and integration strategies prevents friction and boosts efficiency.
+		- A unified approach provides a holistic view, facilitating rapid adaptation to new requirements.
+	- **Bag 5: The Role of Specialized Tools**
+		- Specialized tools like RPA and BPMS are powerful but should be used judiciously.
+		- Orchestration of multiple tools ensures optimal performance in automation efforts.
+	- **Bag 6: Two Pillars of Enterprise Automation Strategy**
+		- Focus on five key business goals: cost reduction, business agility, insights provision, differentiation through innovation, and strategic alignment.
+		- Tech strategy involves a mix of enterprise automation platforms, integration, automation technologies, and governance technologies.
+		- Operating model strategy ensures roles, responsibilities, governance, and sourcing policies align with business goals.
+	- **Bag 7: Building an Enterprise Automation Platform**
+		- An ERP streamlines operations, increases productivity, and accelerates innovation.
+		- Architecture styles like point-to-point, event-driven, API, microservices, and data hub architectures support effective integration.
+	- **Bag 8: Building an Enterprise Automation Team and Plan**
+		- Stakeholder engagement, low-code development, breaking down silos, and cohesive automation approaches are vital.
+		- Defining integration, uniting teams, democratizing access, and efficient governance processes lead to better outcomes.
+	- **Bag 9: GEARS and Enterprise Maturity Levels**
+		- GEARS framework guides organizations through maturity levels: Incubation, Acceleration, and Institutionalization.
+		- Maturity levels involve an Automation First mentality, setting up an Automation Factory, and making automation part of the organization's culture.
+	- **Bag 10: Quantifying the Impact of Automations**
+		- Measure impact through hours saved, employee feedback, stakeholder adoption, efficiency, cost savings, and revenue generation.
+		- Get certified in enterprise automation through Workato's Automation Institute to enhance your skills and credibility.
+
+- ## Summary Material
+	- ### Enterprise Automation - Udemy
+		- **Introduction to Enterprise Automation (Bag 1)**
+			- **1. Intro to Enterprise Automation**
+				- Enterprise automation streamlines processes, reduces errors, and enhances overall performance.
+				- Growth in the enterprise era requires merging processes, resources, and skills into a unified system.
+				- Enterprise automation focuses on supporting strategic business goals and addresses integration and automation scenarios comprehensively.
+				- Buying the right tech = right solution to every problem 
+				- Growth in this era != about adding more apps 
+				- Growth = orchestration of multiple connections and networks of flows across apps
+				- What makes enterprise automation different from classical one?
+					1. Focus on support strategic business goals
+					2. Addressing the complete spectrum of integration and automation scenarios
+					3. Enabling a democratized approach
+				- Benefits include increased efficiency, improved performance and agility, and managed governance of automation challenges.
+				- Enterprise automation covers a variety of integration scenarios across processes, data, applications, APIs, business events, and devices.
+		- **Automation and Integration (Bag 2)**
+			- **2. Introduction to Automation and Integration**
+				- The two is intertwined, **you cannot have automation without integration**
+				- **Automation is a key outcome of successful integration**, enhancing efficiency and streamlining processes.
+				- Both automation and integration initiatives drive agility, innovation, and operational goals achievement.
+				- **Implementing automation requires a holistic, strategic perspective** rather than a project-by-project approach.
+				- Automation and integration are not just technological approaches but vital business capabilities.
+				- They enable cost reduction, efficiency improvement, faster decision-making, and new product/service delivery.
+				- The relationship between automation and integration is becoming stronger as the market evolves.
+				- Organizations need to understand this relationship strategically to unlock the full potential of these technologies.
+			- **3. Defining Automation**
+				- Automation streamlines processes in modern business operations, allowing for more value-adding activities.
+				- Automated workflows operate without human intervention once parameters are set up.
+				- Integration of different systems, including software applications and machines, enables automated processes.
+				- Seamless data transfer between systems, such as from CRM to ERP, eliminates manual data entry and improves efficiency.
+					- ![[Pasted image 20240304100258.png]]
+				- Automated workflows reduce manual activities, enhancing efficiency and accuracy behind the scenes.
+				- End-to-end automation requires careful design and planning for successful implementation.
+				- Systems must work together seamlessly, facilitating a smooth flow of data and process planning.
+				- Organizations can harness automation's power to drive business forward by understanding underlying principles and designing automation workflows effectively.
+			- **4. Defining Integration**
+				- Automation and integration are closely related concepts in modern enterprise operations.
+				- Understanding their individual definitions and how they work together is crucial.
+				- Integration technology facilitates making independently designed systems work together.
+				- It acts as a bridge between different applications, enabling data transfer and workflow orchestration across various protocols and formats.
+				- Integration ensures data consistency by validating mapping and transforming data between systems.
+				- Organizations can harness the potential of integration technology to drive their business forward by understanding its role and benefits.
+			- **5. The relationship between automation and integration**
+				- The end-to-end model of automation relies on complementing orchestration capabilities with integration capabilities.
+				- Integration serves as the foundation for automation by connecting different systems and facilitating data transfer.
+				- Automation cannot be achieved without integration, and an integration strategy lacking automation support is incomplete.
+				- **Automation and integration strategies should be designed together to create a unified approach**, with integration technologies as the foundation and automation as a key outcome.
+				- **The focus should be on achieving end-to-end business results**, including efficiency, agility, and innovation.
+				- A well-designed integration strategy is essential to fully benefit from automation.
+				- Every automation project requires integration, and without a planned strategy, addressing integration needs on a case-by-case basis leads to duplication of effort, tool usage, and management challenges, increasing technical debt and costs. ![[Pasted image 20240304101515.png]]
+				- Learn more: [How to Manage Technical Debt 🦠 - by Luca Rossi (refactoring.fm)](https://refactoring.fm/p/technical-debt) ![[Pasted image 20240304101558.png]]
+			- **6. Automation and Integration in Action**
+				- Automation utilizes software and machines to automate tasks, enhancing efficiency and enabling employees to focus on higher-value activities.
+				- Finance applications automate tasks like accounting and financial closure, traditionally siloed within individual business units.
+				- Integration technologies such as ESBs or ETL tools break down silos by synchronizing data across applications for cross-unit process automation. ![[Pasted image 20240304101815.png]]
+				- Integration technology connects different systems and applications, facilitating communication and synergy.
+				- It routes messages and data to appropriate destinations, validates, maps, transforms data, and bridges communication protocols.
+				- Deep technical capabilities are essential for automating processes involving multiple systems and possibly humans.
+				- For example, in a purchase order scenario, automation can automatically send orders under $100,000 to fulfillment systems, while those exceeding the value require human approval facilitated by integration technology.
+				- Automation and integration are interrelated, with integration serving as the foundation for successful automation.
+				- Organizations should align their automation and integration strategies to ensure a unified approach focused on end-to-end business impact.
+		- **The Three Approaches to Automation (Bag 3)**
+			- **7. The Approaches to Automation**
+				- Automated processes engage with various elements in a dynamic business environment, including communication channels like email, mobile websites, chatbots, and collaboration tools. ![[Pasted image 20240304103010.png]]
+				- Interactions also involve both on-premise and SaaS app collections, as well as data stored in warehouses, lakes, databases, files, and documents, and interactions with partners and suppliers.
+				- Three key pillars of integration capabilities are crucial for fully automating business processes: experience integration, data integration, and process integration.
+					- **Experience integration** focuses on ensuring a seamless and intuitive user experience for automation, ensuring smooth interaction between human tasks and system actions across communication channels.
+					- **Data integration** involves smooth and secure data flow between different sources, including apps and data storage systems, with robust validation, mapping, and transformation capabilities.
+					- **Process integration** enables end-to-end automation of business processes spanning multiple systems, routing messages and data to appropriate destinations based on predefined rules and conditions.
+				- These technical capabilities are foundational for automating complex processes involving multiple independently designed systems.
+				- Understanding and supporting these three approaches to automation are essential for organizations aiming to automate their business processes effectively and efficiently.
+			- **8. Experience Integration**
+				- Experience integration is crucial for enterprise automation to ensure a seamless user experience for all stakeholders.
+				- Companies often use disparate products and tools, leading to a disjointed experience, emphasizing the need for a unified platform.
+				- Low-code chatbots are becoming essential for faster release cycles and ubiquitous access to applications, making it important for automation platforms to support them.
+				- Chatbots meet users where they are and provide quick and efficient support, enhancing the user experience.
+				- Low-code development is increasingly popular, and automation platforms should support it to rapidly develop and deploy applications tailored to stakeholders' needs.
+				- By focusing on experience integration, businesses can ensure a seamless experience for employees, customers, and other stakeholders in automating business processes.
+			- **9. Data Integration**
+				- Data integration is essential in today's business world, where companies rely on various apps and data sources for revenue-generating decisions.
+				- It encompasses key aspects such as:
+					- connectivity, 
+					- metadata, 
+					- data transformation, 
+					- data consistency, 
+					- system updates, and 
+					- monitoring for business events.
+				- Connectivity enables capturing events from applications and data silos, simplifying development and enabling more builders to use the platform.
+				- Metadata provides necessary information for integration, accelerating development and contributing to overall efficiency. ![[Pasted image 20240304103617.png]]
+				- Data transformation ensures consistency and accuracy across systems by handling complex data structures effectively.
+				- Other critical aspects include maintaining data consistency, tracking system updates in real-time, and monitoring business events for real-time insights.
+				- Data integration enables organizations to effectively manage their data, make informed decisions, and ensure data consistency, accuracy, and timeliness across all systems.
+				- Investing in a robust data integration solution is crucial for organizations to thrive in today's fast-paced, data-driven world.
+			- **10. Process Integration**
+				- Process integration capabilities tie together human and system actions into a seamless end-to-end flow, crucial for streamlining operations and increasing efficiency. ![[Pasted image 20240304111451.png]]
+				- They connect disparate systems in business operations and form the foundation for an event-driven, orchestrated solution.
+				- Event-driven architecture allows for creating logical paths for business processes and handling timing requirements effectively.
+				- Managing event-driven actions ensures reliable delivery of business events and execution of transactions.
+				- Process integration capabilities must include proper rollback or compensation logic to maintain transactional integrity in case of errors.
+				- These capabilities are essential for modern businesses aiming to streamline operations, increase efficiency, and maintain control over processes.
+				- They ensure reliable processing, transactional integrity, and effective management of exceptions, crucial for business success.
+			- **11. Supporting Integration**
+				- Architecture and data integration resemble building architecture, requiring certain components for a sound structure but offering flexibility in construction and execution.
+				- Architectural styles play a crucial role, allowing for multiple approaches to satisfy integration requirements and accommodate different use cases and personas.
+				- Good architecture is essential for building effective solutions that are easy to operate, test, and scale.
+				- Teams benefit from building solutions based on good architecture by sharing reusable assets and avoiding redundant efforts.
+				- This results in a more efficient and streamlined process, enabling teams to focus on delivering value to the business.
+				- Leveraging the benefits of good architecture tailors solutions to meet unique needs and facilitates operation, testing, and scalability.
+				- Ultimately, this approach helps achieve business objectives and maintain a competitive edge in a rapidly evolving landscape.
+			- **Quiz 1:** ![[Pasted image 20240304111834.png]]
+		- Automation and Integration as a Progressive Approach (Bag 4)
+			- **12. Automation and Integration as Progressive Approach**
+				- A clear and unified strategy for automation and integration is crucial for organizations to stay ahead in rapidly evolving business environments.
+				- Combining automation and integration strategies prevents conflicting goals and friction within the organization, leading to greater efficiency and cost savings.
+				- The symbiosis between automation and integration technologies helps tackle complex scenarios, enabling automation of end-to-end processes spanning multiple systems and functions. ![[Pasted image 20240304112008.png]]
+				- A unified approach provides a holistic perspective on business and technology issues, allowing for comprehensive views of challenges and solutions.
+				- Separate strategies and support teams result in siloed perspectives, making planning, management, monitoring, and governance more difficult.
+				- CIOs and IT leaders benefit from a combined approach to rapidly automate complex processes and adapt quickly to new requirements.
+				- A progressive approach offers strategic and IT-related benefits, ensuring aligned and well-defined goals and efficient tackling of complex scenarios.
+			- **13. Implementing a Unified Strategy**
+				- Aligning a unified strategy for integration and automation is crucial for organizations to stay competitive.
+				- Separate ownership of integration and automation strategies can lead to conflicting goals and lack of cohesion.
+				- Unifying integration and automation CIOs into a **singular enterprise automation** team helps ensure common goals and clear understanding of the organization's strategy.
+				- How?
+					1. Assessing the current state of integration and automation efforts is the first step in implementing a unified strategy, identifying potential roadblocks and developing a plan to address them.
+						- Engaging key stakeholders such as business and IT leaders is important to gain buy-in and support for the unified strategy.
+					2. Developing a common set of goals and key performance indicators for the enterprise automation team ensures alignment and measurement of success.
+				- Continuous improvement and adjustment are necessary for implementing a unified strategy, requiring a governance framework to guide the process and remain aligned with organizational goals.
+				- Unifying integration and automation CIOs leads to greater efficiency, a holistic perspective, and clear goals in implementing these strategies.
+			- **14. Addressing Automation Challenges**
+				- Implementation of automation in modern businesses faces challenges, including organizational, political, and technological obstacles.
+				- Steps to overcome these challenges and adopt a unified enterprise automation strategy include bringing separate integration and automation teams together to define a combined approach.
+					- Creating the strategy jointly with stakeholders fosters buy-in and moves initiatives forward.
+					- Alternatively, designing automation strategies to leverage integration technology or vice versa can help align efforts.
+					- Educating IT and business leaders on the interdependence of automation and integration and showcasing real-life projects can demonstrate the benefits of combining the two.
+					- Look for opportunities to reduce redundancies in technology and skills across integration and automation teams to achieve economies of scale.
+					- Successful efforts can lead to consensus around combining integration and automation disciplines into a broad enterprise automation strategy.
+				- Overcoming challenges in establishing a unified enterprise automation strategy requires collaboration, flexibility, and education to demonstrate the benefits and align efforts effectively.
+		- The Role of Specialized Tools (Bag 5)
+			- **15. The Role of Specialized Tools**
+				- Companies often use specialized tools like robotic process automation (RPA) or business process management (BPM) for automation.
+				- While powerful, specialized tools come with significant costs and efforts and can lead to suboptimal outcomes if used incorrectly.
+				- Using specialized tools in a generalized way or overgeneralizing their application can lead to higher costs and diminished effectiveness.
+				- Each specialized tool is effective for specific use cases, but effective automation requires orchestration to seamlessly integrate multiple tools.
+				- Specialized tools should be used in moderation, with a rule of thumb to solve 90% of problems with general tools and only use specialized tools for the remaining 10%.
+				- Balancing generalization and specialization and orchestrating multiple tools ensures optimal performance and success in automation efforts.
+			- **16. Automation Tools**
+				- Robotic Process Automation (RPA) mimics human actions to automate interactions with applications, saving time on manual tasks.
+				- Business Process Management Suites (BPMS) include execution, modeling, monitoring, and analytics to improve organizational processes.
+				- Integration Platform as a Service (iPaaS) integrates multiple apps, syncs datasets, and initiates actions based on data events.
+				- API Management tools focus on managing company APIs, handling technical requirements such as security and performance.
+				- Extract, Transform, Load (ETL) tools move data from multiple sources into a common data model, with ETL focusing on data transformation and ELD focusing on extract and load operations.
+				- Automation tools are crucial for streamlining processes, reducing manual labor, and integrating systems for maximum efficiency.
+				- Each tool has its strengths and weaknesses, and businesses must choose the tool that best fits their needs to stay competitive and achieve success.
+		- Two Pillars of Enterprise Automation Strategy (Bag 6)
+			- **17. Two Pillars of Enterprise Automation Strategy**
+				- In Lesson six of the Enterprise Automation Course, the focus is on approaching challenges strategically in today's competitive business environment.
+				- **Five key business goals are outlined:** 
+					- **Reducing costs and improving efficiency** through streamlining processes and minimizing manual errors.
+					- **Enabling business agility** and change by reshaping and extending legacy processes to adapt to market conditions.
+					- **Providing insights and situational awareness** by collecting, aggregating, and analyzing business event data in real time.
+					- **Building differentiation via innovation** by creatively assembling commodity systems to stand out from competitors.
+				- Embracing these approaches enables businesses to achieve strategic goals and thrive in a rapidly changing business landscape.
+			- **18. Tech Strategy**
+				- Enterprise automation platforms, integration, automation technologies, and governance technologies are essential components of a successful technology strategy.
+				- **No single suite of apps can meet all the unique needs of an organization**, leading to the emergence of satellite applications to fill functional gaps.
+				- Relying solely on either larger suites or satellite applications has limitations, prompting the adoption of a new end-to-end model of automation.
+				- This model leverages business capabilities from different applications and systems to define and implement more effective and impactful processes.
+				- Processes often span multiple functional units like finance, HR, procurement, and supply chain management.
+				- To successfully implement this model, considerations include the various constituencies involved and the consumption model to align with business objectives and gain a sustainable competitive advantage.
+				- An end-to-end automation strategy encompassing enterprise automation platforms, integration and automation technologies, governance technologies, use cases, scenarios, constituencies, and a consumption model can help organizations achieve more effective and differentiated processes.
+				- Embracing this approach allows organizations to streamline operations, increase productivity, and maintain a competitive edge.
+			- **19. Operating Model Strategy**
+				- In today's business landscape, organizations invest in enterprise automation delivery to stay competitive.
+				- Adopting automation tools and technologies isn't enough; a well-defined operating model strategy is essential for successful implementation.
+				- This strategy includes clearly defined roles and responsibilities, a robust governance model, and a sourcing policy aligned with organizational objectives.
+				- Key business goals such as reducing costs, improving efficiency, enabling agility, providing insights, and fostering innovation must guide automation efforts.
+				- Utilizing low code orchestration tools in the automation layer is crucial for streamlining development processes and reducing the need for specialized technical skills.
+				- A solid operating model strategy ensures effective and sustainable automation implementation, allowing organizations to achieve desired outcomes efficiently and quickly.
+			- **Quiz 2:** ![[Pasted image 20240304131523.png]]
+		- Building a Enterprise Automation Platform (Bag 7)
+			- **20. Building an Enterprise Automation Platform**
+				- Building an Enterprise Information Platform (ERP) is crucial for organizations to integrate people, applications, data sources, and devices.
+				- This streamlined operation automates repetitive tasks, increases productivity, boosts business agility, and accelerates the innovation cycle.
+				- Low code automation technology enables individuals with limited coding experience to quickly build and implement automation solutions, leading to faster time to value and democratization.
+				- The flexibility and productivity offered by low code automation technology ensure that automation processes can be easily modified to meet changing business requirements.
+				- Democratization allows as many people as possible to build and implement automation solutions, maximizing proactive contributions to organizational success.
+				- Collaboration between business and IT teams from different parts of the organization is essential for effective enterprise automation.
+				- Implementing automation processes that work seamlessly across business teams improves efficiency, effectiveness, and productivity by identifying and eliminating bottlenecks.
+				- A single platform for integrating applications, data, and devices across the organization creates a strong unifying force, enhanced by a democratized approach and versatile integration capabilities.
+			- **21. Architecture Styles**
+				- An enterprise automation platform should support multiple architectural styles to integrate various endpoints effectively.
+				- Offering a choice among different architectural patterns prevents suboptimal implementations and overengineering.
+				- The architecture of the platform should be tailored to meet the specific needs of the organization and be flexible enough to accommodate evolving business requirements.
+				- Technology components should be selected based on the supported use cases, nature of endpoints, and requirements for manageability, security, and compliance.
+				- Having a flexible and robust toolbox of architecture enables the platform to address diverse organizational needs effectively.
+				- Choosing the right architecture enhances efficiency, reliability, and cost savings in building the enterprise automation platform.
+			- **22. Key Architecture Patterns for Enterprise Automation**
+				- **Point-to-Point Architecture:**
+					- Focuses on automated connections between applications to transfer data.
+					- Commonly used for basic data transfer between endpoints.![[Pasted image 20240304132100.png]]
+				- **Event-Driven Architecture (EDA):**
+					 - Detects activities across the organization and converts them into asynchronous messages called events.
+					 - Efficient, scalable, and reliable, making it popular among developers and architects. ![[Pasted image 20240304132138.png]]
+				- **API Architecture and Microservices:**
+					 - Defines business capabilities that shield developers from underlying system details.
+					  - Enables the creation of reusable building blocks or services that encapsulate application logic and data.
+					  - Microservices often implemented as collections of reusable building blocks. ![[Pasted image 20240304132210.png]]
+					  - Learn More: [What are microservices?](https://microservices.io/) ![[Pasted image 20240304132252.png]]
+				- **Data Hub Architecture:**
+					 - Similar to a lightweight master data management platform.
+					 - Stores golden records for core business data entities and associated business events.
+					- Simplifies automation creation by centralizing core data and events. ![[Pasted image 20240304132327.png]]
+				- **Integration of Architectural Patterns:**
+					- Crucial for the success of an effective enterprise automation plan.
+					- Enables organizations to leverage the strengths of each pattern to meet diverse automation needs.
+		- Building an Enterprise Automation Team and Plan (Bag 8)
+			- **23. Building an Enterprise Automation Team and Plan**
+				- **Stakeholder Engagement:**
+					- Involves multiple stakeholders such as architects, developers, and technology experts.
+					- Engagement occurs through various channels like web, mobile, and bots.
+				- **Low-Code Development:**
+					- Enables rapid adaptation of the automation landscape.
+					- Allows more builders from across the organization to participate in automation design and development.
+				- **Breaking Down Silos:**
+					- Common platform usage facilitates breaking down of organizational silos.
+					- Eliminates fragmented knowledge present in siloed delivery systems.
+				- **Foundational Requirement:**
+					 - Low-code or no-code technology is a foundational requirement for any enterprise automation platform.
+					- Provides flexibility, scalability, and agility needed to respond quickly to changing business needs.
+				- **Cohesive Approach to Automation:**
+					 - By enabling more builders and utilizing low-code development, organizations can achieve a cohesive approach to automation.
+			- **24. Defining Integration**
+				- **Uniting Teams:**
+					- Crucial aspect of building an enterprise automation team.
+					- Achieved through a common platform for collaboration.
+				- **Democratizing Access:**
+					- Lowers barriers to entry for a broader set of personas.
+					- Allows individuals with diverse skill sets to contribute to automation efforts.
+				- **Low-Code Experience:**
+					- Aligns automation platform with varying skill sets of the team.
+					- Enables builders of different backgrounds to come together and contribute.
+				- **Efficient Governance Processes:**
+					 - Essential for successful automation practice.
+					 - Well-defined, efficient, and well-governed processes facilitate effective teamwork.
+				- **Achieving Better Business Outcomes:**
+					- Uniting teams and democratizing access leads to improved business outcomes.
+					- Results in reduced costs and increased productivity for the organization.
+			- **25. Sharing the "Quick Win"** ![[Pasted image 20240304133130.png]]
+				- **Leadership Involvement:**
+				  - Critical for successful automation implementation.
+				  - Leadership team's buy-in and support are essential.
+				  - They need to understand the impact of automation on saving costs, increasing efficiency, and revenue generation.
+				- **Automation Builders:**
+				  - Responsible for building and maintaining automations.
+				  - Require new skills and challenges.
+				  - Need easy-to-use tools, training, and support to overcome barriers to entry.
+				- **Automation Recipients:**
+				  - Employees and contractors impacted by automation.
+				  - Need assurance about job security and understanding of how automation will enhance their roles.
+				- **Team Composition:**
+				  - Requires individuals with diverse skills in automation, process improvement, and project management.
+				  - Ensures effective coordination and understanding of roles within the team.
+				- **Resource Allocation:**
+				  - Essential to have a dedicated budget, equipment, and tools for the automation team.
+				  - Ensures the team has the necessary resources to deliver projects successfully.
+			- **26. Being the Automation Champion** ![[Pasted image 20240304133401.png]]
+				- **Quick Win Importance:**
+					- Initiates the automation journey with a high impact and visibility process.
+					- Demonstrates immediate benefits to the leadership team, automation builders, and recipients.
+				- **Benefits for Leadership Team:**
+					- Provides a tangible example of automation's positive impact on the company.
+					- Shows improved efficiency, reduced manual labor, and enhanced employee or customer experience.
+				- **Benefits for Automation Builders:**
+					- Inspires automation builders by showcasing how easy it is to build impactful automations.
+					- Encourages creativity and generates ideas for further automation efforts.
+				- **Benefits for Automation Recipients:**
+					- Demonstrates how automation can simplify their job tasks and improve work-life balance.
+					- Overcomes fear of automation by showing tangible benefits and opportunities for personal growth.
+				- **Overcoming Resistance:**
+					- Helps dispel anti-automation sentiments by highlighting positive outcomes and excitement for automation.
+				- **Importance of Sharing Quick Wins:**
+					- Crucial for gaining support from all stakeholders and encouraging participation in the automation journey.
+		- GEARS and Enterprise Maturity Levels (Bag 9)
+			- **27. The GEARS Framework** ![[Pasted image 20240304133606.png]]
+				- The GEARS framework
+					GEARS is an acronym comprised of five important domains in the enterprise automation journey:
+					- Govern
+					- Enable
+					- Adopt
+					- Run
+					- Scale
+				- **Structure**	
+					- Each domain of the framework can be broken down into several actionable building blocks called levers.
+					- Each lever represents a set of key activities that affect different areas of an organization where tangible improvements can be made, and some levers can fall under more than one domain. For instance, the business technology strategy drives the entire integration and automation practice, thus affecting every domain in the framework.
+			- **28. Maturity Levels**
+				- **Incubation Phase:**
+				  - Start with an Automation First mentality.
+				  - Set up initial guardrails and define platform roles.
+				  - Lay down foundation for successful implementation.
+				  - Focus on governance, strategy alignment, organizational structure, change roadmap, and early value realization.
+				- **Acceleration Phase:**
+				  - Grow organically through an Automation Factory.
+				  - Scale up and streamline onboarding of new resources and personas.
+				  - Identify KPIs, enablement approach, pilot Automation HQ operating model, and develop reusable assets and best practices.
+				- **Institutionalization Phase:**
+				  - Make automation a core part of the organization's culture.
+				  - Focus on internal community and campaigns, onboarding program, enterprise-wide adoption through automation factories, and business transformation.
+				- **GEARS Framework Benefits:**
+				  - Guides organizations through maturity levels: Incubation, Acceleration, and Institutionalization.
+				  - Enables starting small and growing automation practice through continuous improvements.
+				  - Helps in planning and achieving wall-to-wall automation by leveraging the model as a blueprint for each domain and lever.
+		- Quantifying the Impact of Automations (Bag 10)
+			- **29. Quantifying the Impact of Automations**
+				- **Measuring Automation Impact:**
+				  - Analyze changes in productivity, revenue, cost, customer satisfaction, and employee engagement resulting from automation.
+				  - Helps organizations understand automation's impact on operations, optimize strategies, identify areas for improvement, and justify investments.
+				- **Common Automation Metrics:**
+				  1. **Hours Saved on Tasks:**
+				     - Demonstrates immediate value by measuring time and effort saved through automation.
+				     - Tracks ongoing value and identifies areas for further automation.
+				  2. **Employee Feedback:**
+				     - Identifies areas of friction or improved experience through feedback from employees.
+				     - Tracked over time to identify trends and areas for improvement.
+				  3. **Stakeholder Adoption and Ratings:**
+				     - Measures adoption and enthusiasm for the automation platform among users.
+				     - Helps identify areas for additional support or training and assesses platform satisfaction.
+				  4. **Efficiency and Cost Savings:**
+				     - Compares performance of automated processes to manual processes.
+				     - Metrics like transactions processed per second (TPS) measure efficiency.
+				     - Tracks improvements over time and identifies areas for further enhancement.
+			- **30. Get Enterprise Automation Certified**
+				- [Head to Workato's Automation Institute](https://discover.workato.com/enterprise-automation-certification/p/1) to take your certification exam and get officially certified! You'll be able to share it with your network and join thousands of professionals certified by [Workato's Automation Institute.](https://directory.workato.com/)
